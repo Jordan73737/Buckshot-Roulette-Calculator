@@ -1,6 +1,15 @@
 from flask import Flask, render_template, request, jsonify
+import os
+from dotenv import load_dotenv  
+import secrets
 
 app = Flask(__name__)
+
+# Load configuration from environment variables
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', secrets.token_hex(16))  
+
+print(f"Loaded SECRET_KEY: {app.config['SECRET_KEY']}")
+
 
 # Game state
 game_state = {
