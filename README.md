@@ -1,13 +1,14 @@
-# Buckshot Tracker
+# Buckshot Roulette Tracker
 
-A web app for tracking live and blank shells in Buckshot Roulette. Accessible via a browser. 
+A program used for tracking live and blank shells whilst playing Buckshot Roulette (steam game).
 
 ## Features
 - Dynamic shell tracking
 - Probability calculations for live and blank shells
 - Reset and Clear option
 
-## Setup - Run the following commands:
+## Setup
+Run the following commands in the CMD:
 1. git clone https://github.com/Jordan73737/Buckshot-Roulette-Calculator.git
 2. cd Buckshot-Roulette-Calculator
 3. python -m venv venv
