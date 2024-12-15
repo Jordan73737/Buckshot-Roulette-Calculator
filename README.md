@@ -8,6 +8,8 @@ A program used for tracking live and blank shells whilst playing Buckshot Roulet
 - Reset and Clear option
 
 ## Setup
+Navigate to - https://buckshot-roulette-calculator.onrender.com/
+OR
 Run the following commands in the CMD:
 1. git clone https://github.com/Jordan73737/Buckshot-Roulette-Calculator.git
 2. cd Buckshot-Roulette-Calculator
