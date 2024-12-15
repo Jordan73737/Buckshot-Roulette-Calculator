@@ -1,4 +1,4 @@
-# Buckshot Roulette Tracker
+# Buckshot Roulette Calculator
 
 A program used for tracking live and blank shells whilst playing Buckshot Roulette (steam game).
 
