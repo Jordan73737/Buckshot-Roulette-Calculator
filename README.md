@@ -4,20 +4,24 @@ A web app for tracking live and blank shells in Buckshot Roulette. Accessible vi
 
 ## Features
 - Dynamic shell tracking
-- Probability calculation for live and blank shells
-- Reset and undo option
+- Probability calculations for live and blank shells
+- Reset and Clear option
 
-## Setup
-1. Install Flask:
-   ```bash
-   pip install flask
+## Setup - Run the following commands:
+1. git clone https://github.com/Jordan73737/Buckshot-Roulette-Calculator.git
+2. cd Buckshot-Roulette-Calculator
+3. python -m venv venv
+4. venv\Scripts\activate
+5. pip install -r requirements.txt
+6. python app.py
+
 
 ## How to use the program:
-- Input the number of lives and blanks into the corresponding boxes at the top
-- Click Start Game
-- Every time you or your opponents(s) fire a round (or otherwise exposes the current shell inside the shotgun) - you configure the shell in the program to be live or blank
-- Configure shells by clicking a numbered circle and then click either the 'Mark Live' or 'Mark Blank' button
-- If you selected the wrong shell type then click the shell and then click the 'Clear Configuration' button
-- Hit the Reset Game button once the round has finished
-- Repeat the process
+1. Input the number of lives and blanks into the corresponding boxes at the top
+2. Click Start Game
+3. Every time you or your opponents(s) fire a round (or otherwise exposes the current shell inside the shotgun) - you configure the shell in the program to be live or blank
+4. Configure shells by clicking a numbered circle and then click either the 'Mark Live' or 'Mark Blank' button
+5. If you selected the wrong shell type then click the shell and then click the 'Clear Configuration' button
+6. Hit the Reset Game button once the round has finished
+7. Repeat Step 1
 
