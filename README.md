@@ -13,9 +13,11 @@ A web app for tracking live and blank shells in Buckshot Roulette. Accessible vi
    pip install flask
 
 ## How to use the program:
+- Input the number of lives and blanks into the corresponding boxes at the top
+- Click Start Game
+- Every time you or your opponents(s) fire a round (or otherwise exposes the current shell inside the shotgun) - you configure the shell in the program to be live or blank
+- Configure shells by clicking a numbered circle and then click either the 'Mark Live' or 'Mark Blank' button
+- If you selected the wrong shell type then click the shell and then click the 'Clear Configuration' button
+- Hit the Reset Game button once the round has finished
+- Repeat the process
 
--Input the number of lives and blanks into the corresponding boxes at the top
--Click Start Game
--Every time you or your opponents(s) fire a round (or otherwise exposes the current shell inside the shotgun) - you configure the shell in the program to be live or blank
--Configure shells by clicking a numbered circle and then click either the 'Mark Live' or 'Mark Blank' button
--If you selected the wrong shell type then click the shell and then click the 'Clear Configuration' button
