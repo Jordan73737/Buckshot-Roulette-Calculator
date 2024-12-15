@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buckshot Tracker</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buckshot Tracker</h1>
+        <div class="game-config">
+            <label>Blanks:</label>
+            <input type="number" id="blanks" oninput="focusLives()" min="0" max="8">
+            <label>Lives:</label>
+            <input type="number" id="lives" oninput="focusBlanks()" min="0" max="8">
+            <button id="start-game">Start Game</button>
+        </div>
+        <div id="error-message" style="color:#9e4cb89a;; font-weight: bold; font-size: medium; margin-top: 10px;"></div>
+
+        <div class="actions">
+            <button id="mark-live">Mark Live</button>
+            <button id="mark-blank">Mark Blank</button>
+            <button id="clear-shell">Clear Configuration</button>
+        </div>
+        
+        <div class="tracker">
+            <div id="shells"></div>
+            <div id="stats">
+                <p>Total Shells: <span id="total-shells">0</span></p>
+                <p>Live Shells: <span id="live-shells">0</span></p>
+                <p>Blank Shells: <span id="blank-shells">0</span></p>
+                <p>Next Shot Probability:</p>
+                <p>Live: <span id="prob-live">0%</span>, Blank: <span id="prob-blank">0%</span></p>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="reset-game">Reset Game</button>
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
