@@ -1,0 +1,45 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+
+# IDE and editor files
+.vscode/
+.vscode/launch.json
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+*.manifest
+*.spec
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Pytest cache
+.cache/
+
+# Flask session and configuration files
+instance/
+*.sqlite3
+*.db
+
+# Git-specific files
+*.orig
+
+# Environment variables
+.env
+
